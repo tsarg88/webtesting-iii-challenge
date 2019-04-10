@@ -7,7 +7,7 @@ class Dashboard extends React.Component {
   state = {
     locked: false,
     closed: false,
-  };
+  }; 
 
   render() {
     const { closed, locked } = this.state;
